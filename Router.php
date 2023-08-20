@@ -25,10 +25,9 @@ class Router
 
         // Arreglo de rutas protegidas...
         // $rutas_protegidas = ['/admin', '/propiedades/crear', '/propiedades/actualizar', '/propiedades/eliminar', '/vendedores/crear', '/vendedores/actualizar', '/vendedores/eliminar'];
-
         // $auth = $_SESSION['login'] ?? null;
 
-        $currentUrl = strtok($_SERVER['REQUEST_URI'], '?') ?? '/';
+        $currentUrl = strtok($_SERVER['REQUEST_URI'], '?') ?? '/'; //Router arreglado
         $method = $_SERVER['REQUEST_METHOD'];
 
         if ($method === 'GET') {
