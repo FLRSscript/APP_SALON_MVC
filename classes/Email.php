@@ -58,8 +58,8 @@ class Email
         $mail->Username = $_ENV['EMAIL_USER'];
         $mail->Password = $_ENV['EMAIL_PASS'];
 
-        $mail->setFrom('admin@bienesraices.com');
-        $mail->addAddress('admin@bienesraices.com', 'AppSalon');
+        $mail->setFrom('cuentas@appsalon.com');
+        $mail->addAddress('cuentas@appsalon.com', 'AppSalon');
         $mail->Subject =  'Restablece tu password';
 
         //Set HTML
