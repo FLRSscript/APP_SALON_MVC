@@ -27,8 +27,8 @@ class Email
         $mail->Username = '8e1a5a7f342b50';
         $mail->Password = 'dd63878e9b3079';
 
-        $mail->setFrom('admin@bienesraices.com');
-        $mail->addAddress('admin@bienesraices.com', 'AppSalon');
+        $mail->setFrom('cuentas@appsalon.com');
+        $mail->addAddress('cuentas@appsalon.com', 'AppSalon');
         $mail->Subject =  'Confirma tu cuenta';
 
         //Set HTML

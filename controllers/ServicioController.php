@@ -10,7 +10,7 @@ class ServicioController
     public static function index(Router $router)
     {
 
-        session_start();
+        // session_start();
 
         isAdmin();
 
@@ -24,7 +24,7 @@ class ServicioController
     }
     public static function crear(Router $router)
     {
-        session_start();
+        // session_start();
 
         isAdmin();
 
